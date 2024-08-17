@@ -90,9 +90,9 @@ const Login = () => {
   }, [formData, navigate]);
 
   return (
-    <div className="flex justify-center items-center h-screen bg-[#e5e8f0] font-monts">
-      <div className="flex items-center justify-center flex-wrap w-[80%] md:h-[90%] sm:h-[90%] max-sm:h-[60%] max-sm:w-[90%] bg-white rounded-3xl ">
-        <div className="flex w-[99.5%] h-[99%] bg-gradient-to-r from-white to-gray-100 rounded-3xl">
+    <div className="flex justify-center items-center h-screen bg-[#e5e8f0] font-monts" style={{background:'linear-gradient(200.91deg, #4D0606 25.34%, #1D0505 54.56%, #0F0505 65.41%, #000000 71.26%)',boxShadow:'1124px 215px 35px rgba(0, 0, 0, 0.25)'}}>
+      <div className="flex items-center justify-center flex-wrap w-[90%] md:h-[90%] sm:h-[90%] max-sm:h-[60%] max-sm:w-[90%] rounded-3xl">
+        <div className="flex w-[99.5%] h-[99%] bg-gradient-to-r from-white to-gray-100 rounded-3xl" style={{background:"rgba(25, 20, 20, 0.35)",boxShadow:"0px 4px 4px rgba(0, 0, 0, 0.25)",borderRadius:"64px"}}>
           <div className="w-[50%] h-full flex justify-center items-center max-sm:hidden">
             <div className="w-[98%] h-[98%] rounded-2xl flex justify-center items-center bg-[#da9afe]">
               <img
